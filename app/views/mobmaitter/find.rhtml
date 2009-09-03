@@ -1,0 +1,12 @@
+
+<table>
+	<tr>
+		<th></th>
+		<th></th>
+	</tr>
+<% for status in @statuses %>
+<tr>
+	<td><%= status.text %></td>
+	<td><%= status.created_at %></td>
+</tr>
+<% end %>

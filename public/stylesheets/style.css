@@ -1,0 +1,93 @@
+body { 
+	color: #333; 
+	background: #EEEEEE url(/images/stripe_bg.png)  repeat center top;
+}
+
+hr {
+	border: 1px #ED6F00 solid; 
+}
+/* -----------------------------------------------------------
+	Container
+ ----------------------------------------------------------- */
+#container {
+	margin: 0 auto;
+	padding: 0;
+	width: 788px;
+	text-align: left;
+}
+
+/* -----------------------------------------------------------
+	Header
+ ----------------------------------------------------------- */
+#header {
+	padding: 0;
+	height: 60px;
+	background: url(/images/mobmaitter-logo.gif) no-repeat center top;
+}
+#header h1 {
+	margin: 0;
+	font-size: 0%;
+}
+#header h1 a {
+	color: #2B3033;
+	text-decoration: none;
+}
+#header p {
+	margin: 0;
+}
+
+/* -----------------------------------------------------------
+	contents
+ ----------------------------------------------------------- */
+
+#contents {
+	background-color: #fff; 
+	padding: 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+#notice {
+	text-align: center;
+	background-color: #356AA0; 
+	padding: 10px;
+	color: #fff;
+}
+
+#warning {
+	text-align: center;
+	background-color: #FF1A00; 
+	padding: 10px;
+	color: #fff;
+}
+
+#message {
+	text-align: center;
+	background-color: #006E2E; 
+	padding: 10px;
+	color: #fff;	
+}
+
+.pen-notice {
+	height: 420px;
+	vertical-align:text-bottom;
+}
+
+.pen-alpha {
+	position: absolute; 
+	z-index:2;
+	filter: Alpha(opacity=100);
+	opacity:0.2;
+}
+
+/* -----------------------------------------------------------
+	footer
+ ----------------------------------------------------------- */
+#footer {
+	padding: 15px 115px 12px;
+	text-align: center;
+	font-size: 80%;
+	color: #fff; 
+}

@@ -1,0 +1,14 @@
+
+全部で<%= @friends.size %>人<br>
+
+<table>
+	<tr>
+		<th></th>
+		<th></th>
+	</tr>
+<% for friend in @friends %>
+<tr>
+	<td><%= friend.id %></td>
+	<td><%= friend.name %></td>
+</tr>
+<% end %>

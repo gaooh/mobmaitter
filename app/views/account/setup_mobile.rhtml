@@ -1,0 +1,16 @@
+<h2>メールドレス認証</h2>
+
+<p><%= @invite.email %>　<br>を以下のtwitterユーザのもばめるったーの宛先として登録します。</p>
+
+<div class="center">
+	
+<% form_tag :action => 'regist' do %>
+
+<p><label for="twitter_id">twitter ユーザ名</label>:<br>
+<%= text_field 'user', 'twitter_id' , :size=>12 %></p>
+
+<%= hidden_field 'invite', 'invite_code' %>
+  <%= submit_tag "登録" %>
+<% end %>
+
+</div>
